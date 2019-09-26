@@ -4,14 +4,10 @@ SRCS=main.c \
 	system_stm32f4xx.c 
 
 # Binary will be generated with this name (.elf, etc)
-PROJ_NAME=semihosting_practice
+PROJ_NAME=semihosting_example
 
 # Put your STM32F4 library code directory here
 STM_COMMON=../STM32F4-Discovery_FW_V1.1.0
-
-
-# Normally you shouldn't need to change anything below this line!
-#######################################################################################
 
 CC=arm-none-eabi-gcc
 NM=arm-none-eabi-nm
